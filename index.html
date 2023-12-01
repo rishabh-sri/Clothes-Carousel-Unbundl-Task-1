@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Clothes Carousel</title>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel" id="product-carousel">
+            <!-- Featured Product Items -->
+            <div class="carousel-item">
+                <img src="./jacket.jpg" alt="Product 1">
+                <h2>Woolen Jacket for Mens</h2>
+            </div>
+            <div class="carousel-item">
+                <img src="./shirt.jpeg" alt="Product 2">
+                <h2>Shirt for Mens</h2>
+            </div>
+            <div class="carousel-item">
+                <img src="./jeans.jpg" alt="Product 3" >
+                <h2>Jeans for Mens</h2>
+            </div>
+            <div class="carousel-item">
+                <img src="./sweater.jpg" alt="Product 4" >
+                <h2>Pullover for Womens</h2>
+            </div>
+            <div class="carousel-item">
+                <img src="./woolen.jpg" alt="Product 5" >
+                <h2>V shape dress for Womens</h2>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+        <!-- Navigation Buttons -->
+        <button class="prev" onclick="changeSlide(-1)">❮</button>
+        <button class="next" onclick="changeSlide(1)">❯</button>
+    </div>
+</body>
+</html>
